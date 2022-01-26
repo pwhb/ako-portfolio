@@ -7,7 +7,7 @@ import { capitalize } from "../utils";
 
 const Navbar = () => {
   return (
-    <nav className="dark:bg-cyan-600 text-gray-200">
+    <nav className="bg-cyan-600 text-gray-200">
       <div className="max-w-4xl mx-auto px-3 md:px-0 py-1">
         <div className="relative flex items-center justify-between h-16 mb-2">
           <ProfileInfo />
