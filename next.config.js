@@ -10,4 +10,6 @@ module.exports = {
       "www.linux-magazin.de"
     ],
   },
+  assetPrefix: isProd ? 'https://cdn.statically.io/gh/pwhb/ako-portfolio.github.io/gh-pages/' : '',
+
 };
