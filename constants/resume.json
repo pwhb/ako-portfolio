@@ -1,0 +1,156 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Aung Ko Oo",
+    "label": "Android Developer",
+    "image": "https://media-exp1.licdn.com/dms/image/C5603AQGZGKFo3l7S7A/profile-displayphoto-shrink_800_800/0/1632551217400?e=1648684800&v=beta&t=tpnXCq45ka_H92jmUf58Bz3cHcK2-DsxZflDtCN0-co",
+    "email": "aungkooo.cs@gmail.com",
+    "phone": "09960210833",
+    "url": "http://richardhendricks.example.com",
+    "summary": "I'm an Android developer who is actively looking forwards to work with team and in time. Have ethics to work in certain projects.",
+    "location": {
+      "address": "",
+      "postalCode": "",
+      "city": "Insein",
+      "countryCode": "MY",
+      "region": "Yangon"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "",
+        "url": "https://linkedin.com/in/aungkooo"
+      },
+      {
+        "network": "Github",
+        "username": "",
+        "url": "https://github.com/aungk000"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Pied Piper",
+      "location": "Palo Alto, CA",
+      "description": "Awesome compression company",
+      "position": "CEO/President",
+      "url": "http://piedpiper.example.com",
+      "startDate": "2013-12-01",
+      "endDate": "2014-12-01",
+      "summary": "Pied Piper is a multi-platform technology based on a proprietary universal compression algorithm that has consistently fielded high Weisman Scores™ that are not merely competitive, but approach the theoretical limit of lossless compression.",
+      "highlights": [
+        "Build an algorithm for artist to detect if their music was violating copy right infringement laws",
+        "Successfully won Techcrunch Disrupt",
+        "Optimized an algorithm that holds the current world record for Weisman Scores"
+      ]
+    }
+  ],
+  "volunteer": [],
+  "education": [
+    {
+      "institution": "University of Yangon",
+      "url": "https://www.uy.edu.mm/",
+      "area": "Computer Science",
+      "studyType": "Bachelor of Science",
+      "startDate": "2015-12-01",
+      "endDate": "2019-12-01",
+      "score": "4.0",
+      "courses": []
+    }
+  ],
+  
+  "awards": [
+    {
+      "title": "People Choice Award for Amhataya app",
+      "date": "2014-11-01",
+      "awarder": "Techcrunch",
+      "summary": "There is no spoon."
+    },
+    {
+      "title": "Uni Hack Challenge 2 (2017)",
+      "date": "2014-11-01",
+      "awarder": "Techcrunch",
+      "summary": "There is no spoon."
+    }
+  ],
+  "publications": [
+    {
+      "name": "Video compression for 3d media",
+      "publisher": "Hooli",
+      "releaseDate": "2014-10-01",
+      "url": "http://en.wikipedia.org/wiki/Silicon_Valley_(TV_series)",
+      "summary": "Innovative middle-out compression algorithm that changes the way we store data."
+    }
+  ],
+  "skills": [
+    {
+      "name": "Web Development",
+      "level": "Master",
+      "keywords": [
+        "HTML",
+        "CSS",
+        "Javascript"
+      ]
+    },
+    {
+      "name": "Compression",
+      "level": "Master",
+      "keywords": [
+        "Mpeg",
+        "MP4",
+        "GIF"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native speaker"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Wildlife",
+      "keywords": [
+        "Ferrets",
+        "Unicorns"
+      ]
+    }
+  ],
+  "references": [
+    {
+      "name": "Erlich Bachman",
+      "reference": "It is my pleasure to recommend Richard, his performance working as a consultant for Main St. Company proved that he will be a valuable addition to any company."
+    }
+  ],
+  "projects": [
+    {
+      "name": "Miss Direction",
+      "description": "A mapping engine that misguides you",
+      "highlights": [
+        "Won award at AIHacks 2016",
+        "Built by all women team of newbie programmers",
+        "Using modern technologies such as GoogleMaps, Chrome Extension and Javascript"
+      ],
+      "keywords": [
+        "GoogleMaps",
+        "Chrome Extension",
+        "Javascript"
+      ],
+      "startDate": "2016-08-24",
+      "endDate": "2016-08-24",
+      "url": "missdirection.example.com",
+      "roles": [
+        "Team lead",
+        "Designer"
+      ],
+      "entity": "Smoogle",
+      "type": "application"
+    }
+  ],
+  "meta": {
+    "canonical": "https://raw.githubusercontent.com/jsonresume/resume-schema/master/resume.json",
+    "version": "v1.0.0",
+    "lastModified": "2017-12-24T15:53:00"
+  }
+}
