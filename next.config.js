@@ -9,7 +9,5 @@ module.exports = {
       "upload.wikimedia.org",
       "www.linux-magazin.de"
     ],
-  },
-  assetPrefix: isProd ? 'https://cdn.statically.io/gh/pwhb/ako-portfolio.github.io/gh-pages/' : '',
-
+  }
 };
