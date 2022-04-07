@@ -2,7 +2,6 @@ import Image from "next/image";
 import resume from "../constants/resume.json";
 import { capitalize } from "../utils";
 
-
 export const Section = ({ title, children }) => {
   return (
     <div className="max-w-4xl px-3 md:px-0 mx-auto">
@@ -72,7 +71,12 @@ const allLinks = [
 export const SocialLinks = ({ footer }) => {
   const links = footer ? footerLinks : allLinks;
   return (
-    <div className="text-center">
+    <div
+      className="text-center
+
+
+"
+    >
       <div
         className={`flex flex-row mx-auto ${
           footer ? "max-w-xs" : "max-w-lg justify-around "
@@ -86,16 +90,15 @@ export const SocialLinks = ({ footer }) => {
               rel="noreferrer"
               className={footer ? "m-1" : "m-3"}
             >
-            <div className="hover:scale-110 m-1">
-
-              <Image
-                className="rounded-md"
-                src={link.icon}
-                width={footer ? 30 : 40}
-                height={footer ? 30 : 40}
-                alt={link.alt}
-              />
-            </div>
+              <div className="hover:scale-110 m-1">
+                <Image
+                  className="rounded-md"
+                  src={link.icon}
+                  width={footer ? 30 : 40}
+                  height={footer ? 30 : 40}
+                  alt={link.alt}
+                />
+              </div>
             </a>
           </div>
         ))}

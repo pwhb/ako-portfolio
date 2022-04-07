@@ -30,8 +30,8 @@ const About = () => {
         <Image
           src={metaData.image}
           width={200}
-          height={200}
-          className="rounded"
+          height={260}
+          className="shadow-xl rounded-2xl object-contain"
           alt="my_image"
         />
         <p className="mt-10 md:mt-0 mx-auto max-w-xl text-lg">
